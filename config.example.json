@@ -1,0 +1,25 @@
+{
+  "ram": {
+    "host": "localhost",
+    "port": 7963,
+    "password": "admin123"
+  },
+  "accounts": [
+    {
+      "name": "Account1",
+      "cookie": "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_XXXXXXXXXXXXXXXXXXXXXXXX",
+      "placeId": "PLACE_ID_HERE",
+      "vipServerLink": "https://www.roblox.com/games/PLACE_ID/GAME-NAME?privateServerLinkCode=XXXXXXXXXXXX",
+      "checkIntervalMs": 30000,
+      "rejoinDelayMs": 5000
+    },
+    {
+      "name": "Account2",
+      "cookie": "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_YYYYYYYYYYYYYYYYYYYYYYYY",
+      "placeId": "PLACE_ID_HERE",
+      "vipServerLink": "https://www.roblox.com/games/PLACE_ID/GAME-NAME?privateServerLinkCode=YYYYYYYYYYYY",
+      "checkIntervalMs": 30000,
+      "rejoinDelayMs": 5000
+    }
+  ]
+}

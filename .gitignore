@@ -1,0 +1,16 @@
+node_modules/
+config.json
+.env
+*.log
+*.exe
+*.exe.update
+*.exe.bak
+_update.bat
+crash.log
+Release/
+*.zip
+tmp_icon.*
+set-icon.js
+*_temp.cs
+test_ram.js
+MixNoobAutoRejoin/

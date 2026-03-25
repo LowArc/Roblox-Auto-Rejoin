@@ -1,0 +1,31 @@
+{
+  "name": "roblox-auto-rejoin",
+  "version": "1.0.0",
+  "description": "Auto rejoin tool for Roblox accounts - detects disconnection and rejoins per-account VIP servers via Roblox Account Manager API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build": "node set-icon.js && caxa --input . --output \"RobloxAutoRejoin.exe\" -- \"{{caxa}}/node_modules/.bin/node.exe\" \"{{caxa}}/src/index.js\""
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "roblox",
+    "auto-rejoin",
+    "account-manager"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "caxa": "^3.0.1",
+    "png-to-ico": "^3.0.1",
+    "rcedit": "^5.0.2",
+    "sharp": "^0.34.5"
+  }
+}
