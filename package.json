@@ -1,6 +1,6 @@
 {
   "name": "roblox-auto-rejoin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto rejoin tool for Roblox accounts - detects disconnection and rejoins per-account VIP servers via Roblox Account Manager API",
   "main": "src/index.js",
   "scripts": {
